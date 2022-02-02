@@ -1,39 +1,63 @@
 PennController.ResetPrefix(null);
-PennController.AddHost("https://amor.cms.hu-berlin.de/~anamjoya/zeitungsstudie/");
+PennController.AddHost("https://amor.cms.hu-berlin.de/~idlsfbnd/zeitungsstudie/");
 PennController.DebugOff();
 
-Sequence("Info","Einverständniserklärung","Code","Anleitung","Counter","Trial","Meta");
+Sequence("Info","Rechte","Einverständniserklärung","Code","Anleitung","Counter","Trial","Meta");
 SetCounter("Counter","inc",1);
 
-//WILLKOMMENSSEITE & INFOBLATT
+//WILLKOMMENSSEITE 
 newTrial("Info",
     newImage("HU","HU Logo.png")
         .size(289,65)
-    ,
-    newImage("UNam","UNam Logo.png")
-        .size(272,85)
     ,
     newImage("SFB","SFB Logo.png")
         .size(280,86)
     ,
     newCanvas("Logosnebeneinander",1138,100)
         .add(100,0, getImage("HU"))
-        .add(413,0, getImage("UNam"))
         .add(750,0, getImage("SFB"))
         .center()
         .print()
     ,
-    newText("willkommen", "<p>Willkommen zu unserem Online-Experiment!</p> Bevor es losgeht, benötigen wir zunächst Ihre Einwilligung zur Teilnahme. Bitte lesen Sie dazu als erstes die folgenden Informationen.")
+    newHtml("Infoblatt", "information.html"
         .center()
         .print()
     ,
-    newText("Infoblatt", "<p><b>Informationen zur SFB-Studie</b></p>Im Rahmen des wissenschaftlichen Projekts „Register perception in a multilingual context of German: Differentiation, awareness, and attitudes“ (SFB 1412, Projekt C07) von Prof. Dr. Heike Wiese und Dr. Antje Sauermann (Humboldt-Universität zu Berlin, im Folgenden HU) führen wir, in Kooperation mit Prof.  Zappen-Thomson (University of Namibia, Windhoek), eine Studie zum Thema „Sprachsituationen im Namibia-Deutsch“ durch. In dieser Studie wollen wir herausfinden, wie Menschen sprachliche Äußerungen (z.B. Wörter und Sätze) verarbeiten.<br>Wir laden Sie hiermit ein, an unserer Studie teilzunehmen. Die Teilnahme ist freiwillig. Möchten Sie nicht an unserer Studie teilnehmen, werden Ihnen daraus keinerlei Nachteile entstehen. Bevor Sie sich entscheiden, ob Sie an unserer Studie teilnehmen möchten, lesen Sie bitte folgende Informationen sorgfältig durch und besprechen Sie dies mit anderen Personen, falls Sie dies wünschen. Sollten Sachverhalte unklar sein oder Sie weitere Fragen haben, zögern Sie nicht, nachzufragen. Wir geben Ihnen gerne Auskunft.</p><b>Details der Studie</b></p>Dies ist die erste von drei Teilstudien. Sie werden einen Zeitungsartikel lesen und darin enthaltene sprachliche Auffälligkeiten identifizieren. Außerdem werden wir Sie bitten, einen Fragebogen auszufüllen, über den wir einige persönliche Angaben (z.B. Alter, Geschlecht, Beruf) sowie Informationen zu den von Ihnen gesprochenen Sprachen und über Ihren Sprachgebrauch erfahren, die uns bei unserer Studie helfen können. Die Datensätze, die in den Teilstudien erhoben werden, werden miteinander verknüpft.<br></p><b>Widerruf und Löschung</b></p>Wir weisen Sie ausdrücklich darauf hin, dass Sie ohne Angabe von Gründen das Experiment jederzeit abbrechen und ihre Zusage zur Teilnahme an Folgeexperimenten widerrufen können. Weiterhin können Sie es ablehnen, Fragen zu beantworten. Hieraus entstehen Ihnen keine Nachteile. Zu Beginn der folgenden Datenerhebung erhalten Sie einen individuellen Code, über den wir Ihre Daten auch nach der Datenerhebung löschen können. Nach der Anonymisierung der Daten ist nur noch eine Löschung der biometrischen Daten (der handschriftlich ausgefüllten Fragebögen) möglich.<br></p><b>Vertraulichkeit</b></p>Die im Rahmen der Studie erhobenen Daten umfassen die Angaben auf den Fragebögen sowie die persönlichen Daten zum Alter, Geschlecht, Beruf und Sprach(en)gebrauch. Diese Angaben werden pseudonymisiert und von uns gespeichert. Die Verbindung der Datensätze der Teilstudien erfolgt über einen individuellen Code, den Sie von uns erhalten haben.<br>Alle Daten und Informationen, die wir in diesem Experiment erheben, werden vertraulich behandelt. Daten, die auf dem Computer gespeichert werden, sind pseudonymisiert, verschlüsselt und durch Passwörter gesichert. Sie werden nicht zusammen mit Informationen gespeichert, die dabei helfen könnten, die Daten mit einzelnen Versuchspersonen in Bezug zu setzen. Alle beteiligten Mitarbeiter*innen sind auf die gewissenhafte Einhaltung der datenschutzrechtlichen Anforderungen nach der Datenschutz-Grundverordnung verpflichtet worden.<br></p><b>Weiterverwertung der Daten und langfristige Speicherung</b></p>Publikationen der Forschungsergebnisse in wissenschaftlichen Fachzeitschriften finden nur mit vollständig anonymisierten Daten statt. In den publizierten Fachartikeln genutzte Daten werden mit Bezeichnung verwendeter Datensätze in anonymer Form auf einem vom Sonderforschungsbereich 1412 entwickelten Datenportal gelistet, aber nicht gespeichert. Für die Publikationen und Speicherung der in den Fachartikeln genutzten Daten werden Forschungsdatenrepositorien genutzt. Dort wird die Vollständigkeit der Anonymisierung geprüft. Falls erforderlich, werden zusätzliche Maßnahmen zur Anonymisierung vorgenommen. Die pseudonymisierten Rohdaten verbleiben auf einem HU-internen, verschlüsselten und zugangsbeschränkten Speicher (HU-Box). Entsprechend den gesetzlichen Bestimmungen werden personenbezogene Daten jeweils zum frühestmöglichen Zeitpunkt pseudonymisiert bzw. anonymisiert. Unmittelbar personenbezogene Daten (wie beispielsweise Einwilligungserklärungen) werden sofort nach Ende des Forschungsprojektes, spätestens nach 10 Jahren gelöscht bzw. vernichtet. Die anonymisierten Untersuchungsdaten werden entsprechend den Empfehlungen der Deutschen Forschungsgemeinschaft (DFG) zur Sicherung guter wissenschaftlicher Praxis für die Dauer von mindestens 10 Jahren zu Nachweiszwecken aufbewahrt.<br>Eine Löschung anonymer Daten ist nicht vorgesehen. Die Daten werden, je nach Reichweite der Einwilligung der Versuchspersonen und Art der Daten, nur für das angegebene Forschungsprojekt genutzt, oder auch externen Forschern für rein wissenschaftliche Zwecke oder öffentlich zugänglich gemacht.<br>Falls Sie Fragen zu dieser Studie haben, kontaktieren Sie bitte: Britta Schulte, Prof. Dr. Heike Wiese oder Dr. Antje Sauermann (Humboldt-Universität zu Berlin, Sprach- und literaturwissenschaftliche Fakultät, 030-2093-9674 / 9675, britta.schulte@hu-berlin.de / heike.wiese@hu-berlin.de / antje.sauermann@hu-berlin.de).<br></p><b>Betroffenenrechte</b></p>Im Hinblick auf Ihre nicht-anonymisierten personenbezogenen Daten haben Sie im Rahmen der gesetzlichen Vorgaben gegenüber den verantwortlichen Projektleiterinnen grundsätzlich Anspruch auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung sowie Widerspruch.<br>Darüber hinaus haben Sie das Recht, Ihre Einwilligung bis zur Anonymisierung Ihrer Daten zu widerrufen. Dies hat zur Folge, dass die Verarbeitung Ihrer personenbezogenen Daten, nach Maßgabe Ihrer Widerrufserklärung, für die Zukunft unzulässig wird. Dies berührt die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung jedoch nicht.<br>Haben Sie Zweifel an der Rechtmäßigkeit der Verarbeitung der Sie betreffenden personenbezogenen Daten, haben Sie das Recht, bei einer mitgliedstaatlichen Aufsichtsbehörde Beschwerde einzulegen. Zuständige Aufsichtsbehörde für die Humboldt-Universität zu Berlin ist die Berliner Beauftragte für Datenschutz und Informationsfreiheit, Friedrichstr. 219, 10969 Berlin, Tel.: +49 30 13889-0, E-Mail: mailbox@datenschutz-berlin.de.<br>Kontaktdaten der Datenschutzbeauftragten der Humboldt-Universität zu Berlin: Gesine Hoffmann-Holland, Unter den Linden 6, 10099 Berlin; E-Mail: datenschutz@uv.hu-berlin.de.<br></p><b>Kontaktdaten Projektleitung</b><br>Prof. Dr. Heike Wiese / Dr. Antje Sauermann <br>Sprach- und literaturwissenschaftliche Fakultät<br>Institut für deutsche Sprache und Linguistik<br>Unter den Linden 6, 10999 Berlin<br>Telefon: +49 30 2093 9674 / 9675<br></p>Es steht Ihnen frei, an unserer Studie teilzunehmen. Falls Sie sich entschließen, nicht an der Studie teilzunehmen, hat dies für Sie keine negativen Folgen. Falls Sie sich entschließen, an der Studie teilzunehmen, werden Sie gebeten, eine Einwilligungserklärung zur Teilnahme abzugeben und den Erhalt dieses Informationsblattes zu bestätigen. Auch danach steht es Ihnen jederzeit frei, das Experiment abzubrechen, ohne dafür Gründe angeben zu müssen.<br></p>")
-    ,
-    newCanvas("Info",1250,1300)
-         .add(100,0, getText("Infoblatt"))
-         .print()
-    ,
+    //newCanvas("Info",1250,1300)
+     //    .add(100,0, getText("Infoblatt"))
+    //     .print()
+   // ,
     newButton("weiter","Weiter zur Einwilligungserklärung")
+        .center()
+        .print()
+    ,
+    newText("Leerzeile"," <br></p>")
+        .print()
+    ,
+    getButton("weiter")
+        .wait()
+)
+    ,
+
+    //WILLKOMMENSSEITE & INFOBLATT
+newTrial("Rechte",
+    newImage("HU","HU Logo.png")
+        .size(289,65)
+    ,
+    newImage("SFB","SFB Logo.png")
+        .size(280,86)
+    ,
+    newCanvas("Logosnebeneinander",1138,100)
+        .add(100,0, getImage("HU"))
+        .add(750,0, getImage("SFB"))
+        .center()
+        .print()
+    ,
+    newHtml("rechte", "rechte.html")
+        .center()
+        .print()
+    ,
+           newButton("weiter","Weiter zur Einwilligungserklärung")
         .center()
         .print()
     ,
@@ -49,15 +73,11 @@ newTrial("Einverständniserklärung",
 newImage("HU","HU Logo.png")
         .size(289,65)
     ,
-    newImage("UNam","UNam Logo.png")
-        .size(272,85)
-    ,
     newImage("SFB","SFB Logo.png")
         .size(280,86)
     ,
     newCanvas("Logosnebeneinander",1138,100)
         .add(100,0, getImage("HU"))
-        .add(413,0, getImage("UNam"))
         .add(750,0, getImage("SFB"))
         .center()
         .print()
@@ -84,15 +104,11 @@ newTrial("Code",
     newImage("HU","HU Logo.png")
         .size(289,65)
     ,
-    newImage("UNam","UNam Logo.png")
-        .size(272,85)
-    ,
     newImage("SFB","SFB Logo.png")
         .size(280,86)
     ,
     newCanvas("Logosnebeneinander",1138,100)
         .add(100,0, getImage("HU"))
-        .add(413,0, getImage("UNam"))
         .add(750,0, getImage("SFB"))
         .center()
         .print()
@@ -139,15 +155,11 @@ newTrial("Code",
     newImage("HU","HU Logo.png")
         .size(289,65)
     ,
-    newImage("UNam","UNam Logo.png")
-        .size(272,85)
-    ,
     newImage("SFB","SFB Logo.png")
         .size(280,86)
     ,
     newCanvas("Logosnebeneinander",1138,100)
         .add(100,0, getImage("HU"))
-        .add(413,0, getImage("UNam"))
         .add(750,0, getImage("SFB"))
         .center()
         .print()
@@ -210,15 +222,11 @@ newTrial("Meta",
     newImage("HU","HU Logo.png")
         .size(289,65)
     ,
-    newImage("UNam","UNam Logo.png")
-        .size(272,85)
-    ,
     newImage("SFB","SFB Logo.png")
         .size(280,86)
     ,
     newCanvas("Logosnebeneinander",1138,100)
         .add(100,0, getImage("HU"))
-        .add(413,0, getImage("UNam"))
         .add(750,0, getImage("SFB"))
         .center()
         .print()
