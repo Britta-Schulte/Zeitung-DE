@@ -1,0 +1,165 @@
+#
+# Results on Thursday December 16 2021 17:40:54 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,1,0,Info,NULL,PennController,0,_Trial_,Start,1639676364415,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,1,0,Info,NULL,PennController,0,_Trial_,End,1639676366942,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,2,0,Einverständniserklärung,NULL,PennController,1,_Trial_,Start,1639676366967,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,2,0,Einverständniserklärung,NULL,PennController,1,_Trial_,End,1639676369103,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,3,0,Code,NULL,PennController,2,_Trial_,Start,1639676369108,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,3,0,Code,NULL,PennController,2,_Trial_,End,1639676374010,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,4,0,Anleitung,NULL,PennController,3,_Trial_,Start,1639676374017,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,4,0,Anleitung,NULL,PennController,3,_Trial_,End,1639676387433,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Group.
+# 14. TopText.
+# 15. BottomText.
+# 16. Comments.
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,PennController,5,_Trial_,Start,1639676387447,Liste2,B2Uberschrift.png,B2Absatz1.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,PennController,5,_Trial_,End,1639676395298,Liste2,B2Uberschrift.png,B2Absatz1.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,PennController,6,_Trial_,Start,1639676395303,Liste2,B2Absatz2.png,B2Absatz3.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,PennController,6,_Trial_,End,1639676402029,Liste2,B2Absatz2.png,B2Absatz3.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,PennController,7,_Trial_,Start,1639676402034,Liste2,B2Absatz4.png,B2Absatz5.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,PennController,7,_Trial_,End,1639676408648,Liste2,B2Absatz4.png,B2Absatz5.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,PennController,8,_Trial_,Start,1639676408653,Liste2,B2Absatz6.png,B2Absatz7.png,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,PennController,8,_Trial_,End,1639676415397,Liste2,B2Absatz6.png,B2Absatz7.png,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,PennController,4,_Trial_,Start,1639676415402,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,Scale,Skala1,Choice, ,1639676418446,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,Scale,Skala2,Choice, ,1639676419695,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geburtsjahr,Final,BUBU,1639676446856,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geschlecht,Final,BUBU,1639676446857,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geburtsort,Final,BUBU,1639676446857,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Aufgewachsen,Final,BUBU,1639676446858,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Wohnort,Final,BUBU,1639676446858,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenMutter,Final,BUBU,1639676446859,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenVater,Final,BUBU,1639676446859,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenSelbst,Final,BUBU,1639676446859,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Kontaktinfo,Final,BUBU,1639676446860,NULL
+1639676455,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,PennController,4,_Trial_,End,1639676446860,NULL
+#
+# Results on Thursday December 16 2021 17:57:28 UTC.
+# USER AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+# Design number was non-random = 2
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,1,0,Info,NULL,PennController,0,_Trial_,Start,1639677349066,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,1,0,Info,NULL,PennController,0,_Trial_,End,1639677351893,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,2,0,Einverständniserklärung,NULL,PennController,1,_Trial_,Start,1639677351902,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,2,0,Einverständniserklärung,NULL,PennController,1,_Trial_,End,1639677353598,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,3,0,Code,NULL,PennController,2,_Trial_,Start,1639677353603,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,3,0,Code,NULL,TextInput,Texteingabe-Code,Final,BUBU,1639677357157,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,3,0,Code,NULL,PennController,2,_Trial_,End,1639677357158,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,4,0,Anleitung,NULL,PennController,3,_Trial_,Start,1639677357164,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,4,0,Anleitung,NULL,PennController,3,_Trial_,End,1639677363493,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Group.
+# 14. TopText.
+# 15. BottomText.
+# 16. Comments.
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,PennController,5,_Trial_,Start,1639677363501,Liste1,B1Uberschrift.png,B1Absatz1.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,TextInput,Top_Korrektur,Final,BUBU,1639677372610,Liste1,B1Uberschrift.png,B1Absatz1.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,TextInput,Bottom_Korrektur,Final,BUBU,1639677372612,Liste1,B1Uberschrift.png,B1Absatz1.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,5,0,Trial,NULL,PennController,5,_Trial_,End,1639677372613,Liste1,B1Uberschrift.png,B1Absatz1.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,PennController,6,_Trial_,Start,1639677372619,Liste1,B1Absatz2.png,B1Absatz3.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,TextInput,Top_Korrektur,Final,BUBU,1639677378433,Liste1,B1Absatz2.png,B1Absatz3.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,TextInput,Bottom_Korrektur,Final,BUBU,1639677378433,Liste1,B1Absatz2.png,B1Absatz3.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,6,0,Trial,NULL,PennController,6,_Trial_,End,1639677378434,Liste1,B1Absatz2.png,B1Absatz3.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,PennController,7,_Trial_,Start,1639677378438,Liste1,B1Absatz4.png,B1Absatz5.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,TextInput,Top_Korrektur,Final,BUBU,1639677386208,Liste1,B1Absatz4.png,B1Absatz5.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,TextInput,Bottom_Korrektur,Final,BUBU,1639677386208,Liste1,B1Absatz4.png,B1Absatz5.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,7,0,Trial,NULL,PennController,7,_Trial_,End,1639677386209,Liste1,B1Absatz4.png,B1Absatz5.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,PennController,8,_Trial_,Start,1639677386214,Liste1,B1Absatz6.png,B1Absatz7.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,TextInput,Top_Korrektur,Final,BUBU,1639677391843,Liste1,B1Absatz6.png,B1Absatz7.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,TextInput,Bottom_Korrektur,Final,BUBU,1639677391843,Liste1,B1Absatz6.png,B1Absatz7.png,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,8,0,Trial,NULL,PennController,8,_Trial_,End,1639677391844,Liste1,B1Absatz6.png,B1Absatz7.png,NULL
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,PennController,4,_Trial_,Start,1639677391850,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geburtsjahr,Final,BUBU,1639677439907,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geschlecht,Final,BUBU,1639677439908,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Geburtsort,Final,BUBU,1639677439908,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Aufgewachsen,Final,BUBU,1639677439908,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Wohnort,Final,BUBU,1639677439909,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenMutter,Final,BUBU,1639677439909,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenVater,Final,BUBU,1639677439909,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,SprachenSelbst,Final,BUBU,1639677439909,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,TextInput,Kontaktinfo,Final,BUBU,1639677439910,NULL
+1639677449,a16f610949f10208d9ae19b9531cecb5,PennController,9,0,Meta,NULL,PennController,4,_Trial_,End,1639677439910,NULL
